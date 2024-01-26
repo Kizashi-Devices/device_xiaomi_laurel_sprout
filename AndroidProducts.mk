@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2024 Kizashi Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_laurel_sprout.mk
+    $(LOCAL_DIR)/kizashi_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_laurel_sprout-user \
-    lineage_laurel_sprout-userdebug \
-    lineage_laurel_sprout-eng
+    kizashi_laurel_sprout-user \
+    kizashi_laurel_sprout-userdebug \
+    kizashi_laurel_sprout-eng
